@@ -3,10 +3,11 @@
 Expose MQTT topics to an OPCUA server via folders. Supports read/write. 
 
 Usage:
-
-- git clone https://github.com/nzfarmer1/mqtt2opcua
+- Original link https://github.com/nzfarmer1/mqtt2opcua
+- git clone https://github.com/Lollitoe/mqtt2opcua
 - cd mqtt2opcua
-- npm link (view/edit examples/run.js)
+- npm link
+- edit examples/run.js and add mqtt topic handlers
 - node examples/run.js
 
 node creates an OPC server that:
@@ -22,7 +23,8 @@ node creates an OPC server that:
 Note:
 
 Recently upgraded to support MQTT auth and to remove spaces from OPCUA name in example
-
+Updated some old OPCUA code
+Added some notes to better understand
 PLEASE REMEMBER TO CHECK FOR UPDATES REGULARLY!
 
 
